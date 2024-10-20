@@ -1,0 +1,42 @@
+.email-body::-webkit-scrollbar,
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+.email-content p {
+    padding-bottom: 1rem;
+}
+
+.active {
+    border: 1px solid var(--accent)
+}
+
+button {
+    background: lightslategray;
+}
+
+li {
+    border: 2px solid var(--border)
+}
+
+
+.btn {
+    border: none;
+    outline: none;
+    padding: .2rem .8rem;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    margin-left: 10px;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background: var(--filterButton);
+    color: var(--text);
+}
+
+.btnActive {
+    background: var(--filterButton);
+    color: var(--text);
+}
